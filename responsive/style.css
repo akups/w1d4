@@ -1,0 +1,44 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: lightcoral;
+}
+
+h1 {
+  /* font-size: 3em; -> 30px on a small device, and 48px on a 768px <= device <= 1024px    */
+  /* em is relative to the parent font-size */
+}
+
+ul {
+  /* (min-width: 768px) and (max-width: 1024px) -> 32px or 20px on a small device */
+  font-size: 2em;
+}
+
+li {
+  /* font-size: 0.5em; 10px on a small device, 16px on a 768px <= device <= 1024px */
+
+  font-size: 0.5em;
+  /* rem is relative to the root element (html) font-size */
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* these selectors and rules will apply to devices where the width is greater or equal to 320px and smaller or equal to 480px */
+
+  body {
+    background-color: lightskyblue;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* tablets portrait */
+
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    background-color: lime;
+  }
+}

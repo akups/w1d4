@@ -11,3 +11,7 @@
 [flexbox froggy 🐸🎮](http://flexboxfroggy.com/)
 
 [flexbox defense 🗼🎮](http://www.flexboxdefense.com/)
+
+## Responsive
+
+[Media Queries cheatsheet](https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488/)
